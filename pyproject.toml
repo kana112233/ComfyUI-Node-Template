@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-your-node-id"
+description = "A short description of your custom nodes"
+version = "0.0.1"
+license = { text = "MIT" }
+dependencies = [
+    "torch",
+    "numpy",
+]
+
+[project.urls]
+Repository = "https://github.com/your-username/your-repo-name"
+
+[tool.comfy]
+PublisherId = "your-publisher-id"
+DisplayName = "Your Awesome Nodes"
+Icon = ""
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
