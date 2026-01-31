@@ -48,6 +48,3 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-
-# Claude Code
-.claude/
