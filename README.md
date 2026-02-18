@@ -44,7 +44,9 @@ If you are using a coding AI assistant, paste the following prompt to bootstrap 
 ├── .gitignore                     # Pre-configured for Python, venvs, ComfyUI data dirs
 ├── __init__.py                    # Node registration (NODE_CLASS_MAPPINGS)
 ├── nodes.py                       # Example node with common input types (IMAGE, INT, FLOAT, STRING)
-└── pyproject.toml                 # Registry-compliant config (https://docs.comfy.org/registry/specifications)
+├── pyproject.toml                 # Registry-compliant config (https://docs.comfy.org/registry/specifications)
+└── examples/                      # Workflow examples
+    └── basic_workflow.json        # Example workflow for ExampleNode
 ```
 
 ## License

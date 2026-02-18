@@ -1,11 +1,16 @@
 [project]
-name = "comfyui-your-node-id"
-description = "A short description of your custom nodes"
+name = "comfyui-node-template"
+description = "A custom node for ComfyUI with device support and progress bar"
 version = "0.0.1"
 license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+readme = "README.md"
 dependencies = [
     "torch",
     "numpy",
+    "Pillow",
 ]
 
 [project.urls]
@@ -13,7 +18,7 @@ Repository = "https://github.com/your-username/your-repo-name"
 
 [tool.comfy]
 PublisherId = "your-publisher-id"
-DisplayName = "Your Awesome Nodes"
+DisplayName = "ComfyUI Node Template"
 Icon = ""
 
 [build-system]
